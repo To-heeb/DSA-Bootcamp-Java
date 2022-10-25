@@ -8,6 +8,6 @@ public class Greetings {
 
         String user = scan.next();
 
-        System.out.println("Welcome " + user + ", your presence is appreciated!");
+        System.out.println("Welcome " + user + ", your presence is very much appreciated!");
     }
 }
