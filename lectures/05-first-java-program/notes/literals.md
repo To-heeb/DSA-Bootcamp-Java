@@ -1,4 +1,5 @@
-Literals: Java Literals are syntactic representations of boolean, character, numeric, or string data.
+# Literals: Java Literals are syntactic representations of boolean, character, numeric, or string data.
+
 Example: 4 is an integer literal.
 
 Identifiers: Identifiers are the names of variables, methods, classes, packages and interfaces
@@ -35,13 +36,13 @@ In this case, the fractional part is .109
 
 Boolean literals are simple. There are only two logical values that a boolean value can have, true and false.
 The values of true and false do not convert into any numerical representation.
-The true literal in Java does not equal 1, nor does the false literal equal 0.
+**_The true literal in Java does not equal 1, nor does the false literal equal 0._**
 
-As you may know, in some other languages, including C/C++, strings are implemented as arrays of characters.
-However, this is not the case in Java. Strings are actually object types.
+**_As you may know, in some other languages, including C/C++/PHP, strings are implemented as arrays of characters.
+However, this is not the case in Java. Strings are actually object types._**
 Because Java implements strings as objects, Java includes extensive string-handling capabilities that are both powerful
 and easy to use.
 
-The remainder a % b is defined such that (a / b) * b + a % b is always equal to a :
-System.out.println(-15 % 2);    // -1
-System.out.println(15 % -2);    // 1
+The remainder a % b is defined such that (a / b) \* b + a % b is always equal to a :
+System.out.println(-15 % 2); // -1
+System.out.println(15 % -2); // 1

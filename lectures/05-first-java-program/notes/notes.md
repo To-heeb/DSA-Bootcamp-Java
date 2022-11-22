@@ -1,4 +1,4 @@
-Terminal: echo $PATH	# This is where it looks for the applications that we want to open.
+Terminal: echo $PATH # This is where it looks for the applications that we want to open.
 
 Class name always starts with a capital letter.
 
@@ -27,4 +27,4 @@ Most of the time, while working with numbers in java, we use primitive data type
 numeric wrapper sub classes under the abstract class Number present in java.lang package.There are mainly six subclasses
 under Number class.These sub-classes define some useful methods which are used frequently while dealing with numbers.
 Byte, Integer, Double, Short, Float, Long
-NOTE : Primitive Wrapper Classes are Immutable in Java.
+**_NOTE : Primitive Wrapper Classes are Immutable in Java_**.

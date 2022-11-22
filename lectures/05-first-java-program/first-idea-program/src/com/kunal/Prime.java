@@ -7,7 +7,7 @@ public class Prime {
         Scanner in = new Scanner(System.in);
         System.out.print("Please enter a number: ");
         int n = in.nextInt();
-        if(n <= 1) {
+        if (n <= 1) {
             System.out.println("Neither prime nor composite");
             return;
         }
@@ -23,6 +23,6 @@ public class Prime {
         if (c * c > n) {
             System.out.println("Prime");
         }
-        
+
     }
 }

@@ -29,17 +29,17 @@ byte b = (byte)a;
 When the value 257 is cast into a byte variable, the result is the remainder of the division of 257 by 256
 (the range of a byte), which is 1 in this case.
 
-
        byte a = 40;
        byte b = 50;
        byte c = 100;
        int d = a * b / c;
+
 The result of the intermediate term a * b easily exceeds the range of either of its byte operands.
 To handle this kind of problem, Java automatically promotes each byte, short, or char operand to int when evaluating
 an expression. This means that the subexpression a*b is performed using integers—not bytes.
- byte b = 50;
-       b = b * 2; // Error! Cannot assign an int to a byte!
-The code is attempting to store 50 * 2, a perfectly valid byte value, back into a byte variable. However, because the
+byte b = 50;
+b = b _ 2; // Error! Cannot assign an int to a byte!
+The code is attempting to store 50 _ 2, a perfectly valid byte value, back into a byte variable. However, because the
 operands were automatically promoted to int when the expression was evaluated, the result has also been promoted to int.
 
 The Type Promotion Rules:
@@ -49,25 +49,25 @@ They are as follows: First, all byte, short, and char values are promoted to int
 Then, if one operand is a long, the whole expression is promoted to long. If one operand is a float,
 the entire expression is promoted to float. If any of the operands are double, the result is double.
 
-class Promote {
-       public static void main(String args[]) {
-         byte b = 42;
-         char c = 'a';
-         short s = 1024;
-         int i = 50000;
-         float f = 5.67f;
-         double d = .1234;
-         double result = (f * b) + (i / c) - (d * s);
-         System.out.println((f * b) + " + " + (i / c) + " - " + (d * s));
-         System.out.println("result = " + result);
-    }
-}
+       class Promote {
+              public static void main(String args[]) {
+                     byte b = 42;
+                     char c = 'a';
+                     short s = 1024;
+                     int i = 50000;
+                     float f = 5.67f;
+                     double d = .1234;
+                     double result = (f _ b) + (i / c) - (d _ s);
+                     System.out.println((f _ b) + " + " + (i / c) + " - " + (d _ s));
+                     System.out.println("result = " + result);
+              }
+       }
+
 Let’s look closely at the type promotions that occur in this line from the program:
 
      double result = (f * b) + (i / c) - (d * s);
 
-In the first subexpression, f * b, b is promoted to a float and the result of the subexpression is float.
-Next, in the subexpression i/c, c is promoted to int, and the result is of type int. Then, in d * s, the value of s is
-promoted to double, and the type of the subexpression is double. Finally, these three intermediate values, float, int,
-and double, are considered. The outcome of float plus an int is a float. Then the resultant float minus the last double
+In the first subexpression, f _ b, b is promoted to a float and the result of the subexpression is float.
+Next, in the subexpression i/c, c is promoted to int, and the result is of type int. Then, in d _ s, the value of s is
+promoted to double, and the type of the subexpression is double. Finally, these three intermediate values, float, int, and double, are considered. The outcome of float plus an int is a float. Then the resultant float minus the last double
 is promoted to double, which is the type for the final result of the expression.
