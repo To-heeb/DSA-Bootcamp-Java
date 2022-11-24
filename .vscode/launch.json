@@ -1,70 +1,196 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch Basics",
-            "request": "launch",
-            "mainClass": "com.kunal.Basics",
-            "projectName": "DSA-Bootcamp-Java_86667309"
-        },
-        {
-            "type": "java",
-            "name": "Launch Inputs",
-            "request": "launch",
-            "mainClass": "com.kunal.Inputs",
-            "projectName": "DSA-Bootcamp-Java_86667309"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "com.kunal.Main",
-            "projectName": "DSA-Bootcamp-Java_86667309"
-        },
-        {
-            "type": "java",
-            "name": "Launch Prime",
-            "request": "launch",
-            "mainClass": "com.kunal.Prime",
-            "projectName": "DSA-Bootcamp-Java_86667309"
-        },
-        {
-            "type": "java",
-            "name": "Launch Primitives",
-            "request": "launch",
-            "mainClass": "com.kunal.Primitives",
-            "projectName": "DSA-Bootcamp-Java_86667309"
-        },
-        {
-            "type": "java",
-            "name": "Launch Sum",
-            "request": "launch",
-            "mainClass": "com.kunal.Sum",
-            "projectName": "DSA-Bootcamp-Java_86667309"
-        },
-        {
-            "type": "java",
-            "name": "Launch Temperature",
-            "request": "launch",
-            "mainClass": "com.kunal.Temperature",
-            "projectName": "DSA-Bootcamp-Java_86667309"
-        },
-        {
-            "type": "java",
-            "name": "Launch TypeCasting",
-            "request": "launch",
-            "mainClass": "com.kunal.TypeCasting",
-            "projectName": "DSA-Bootcamp-Java_86667309"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch TotalSurfaceAreaOfCube",
+      "request": "launch",
+      "mainClass": "com.toheeb.TotalSurfaceAreaOfCube",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch CurvedSurfaceAreaOfCylinder",
+      "request": "launch",
+      "mainClass": "com.toheeb.CurvedSurfaceAreaOfCylinder",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch VolumeOfCylinder",
+      "request": "launch",
+      "mainClass": "com.toheeb.VolumeOfCylinder",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch VolumeOfPrism",
+      "request": "launch",
+      "mainClass": "com.toheeb.VolumeOfPrism",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch VolumeOfCone",
+      "request": "launch",
+      "mainClass": "com.toheeb.VolumeOfCone",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch PerimeterOfRhombus",
+      "request": "launch",
+      "mainClass": "com.toheeb.PerimeterOfRhombus",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch PerimeterOfSquare",
+      "request": "launch",
+      "mainClass": "com.toheeb.PerimeterOfSquare",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch PerimeterOfRectangle",
+      "request": "launch",
+      "mainClass": "com.toheeb.PerimeterOfRectangle",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch PerimeterOfParallelogram",
+      "request": "launch",
+      "mainClass": "com.toheeb.PerimeterOfParallelogram",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch PerimeterOfEquilateralTriangle",
+      "request": "launch",
+      "mainClass": "com.toheeb.PerimeterOfEquilateralTriangle",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch PerimeterOfCircle",
+      "request": "launch",
+      "mainClass": "com.toheeb.PerimeterOfCircle",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch AreaOfEquilateralTriangle",
+      "request": "launch",
+      "mainClass": "com.toheeb.AreaOfEquilateralTriangle",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch AreaOfRhombus",
+      "request": "launch",
+      "mainClass": "com.toheeb.AreaOfRhombus",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch AreaOfParallelogram",
+      "request": "launch",
+      "mainClass": "com.toheeb.AreaOfParallelogram",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch AreaOfIsoscelesTriangle",
+      "request": "launch",
+      "mainClass": "com.toheeb.AreaOfIsoscelesTriangle",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch AreaOfRectangle",
+      "request": "launch",
+      "mainClass": "com.toheeb.AreaOfRectangle",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch AreaOfTriangle",
+      "request": "launch",
+      "mainClass": "AreaOfTriangle",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch AreaOfCircle",
+      "request": "launch",
+      "mainClass": "AreaOfCircle",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Basics",
+      "request": "launch",
+      "mainClass": "com.kunal.Basics",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Inputs",
+      "request": "launch",
+      "mainClass": "com.kunal.Inputs",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.kunal.Main",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Prime",
+      "request": "launch",
+      "mainClass": "com.kunal.Prime",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Primitives",
+      "request": "launch",
+      "mainClass": "com.kunal.Primitives",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Sum",
+      "request": "launch",
+      "mainClass": "com.kunal.Sum",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Temperature",
+      "request": "launch",
+      "mainClass": "com.kunal.Temperature",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch TypeCasting",
+      "request": "launch",
+      "mainClass": "com.kunal.TypeCasting",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    }
+  ]
 }

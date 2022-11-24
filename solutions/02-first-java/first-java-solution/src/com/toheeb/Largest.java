@@ -14,17 +14,17 @@ public class Largest {
 
             if (input.hasNextFloat()) {
                 float numberTwo = input.nextFloat();
-                if(numberTwo > numberOne){
+                if (numberTwo > numberOne) {
                     System.out.println("The largest number is : " + numberTwo);
-                }else{
+                } else {
                     System.out.println("The largest number is : " + numberOne);
                 }
 
-            }else{
+            } else {
                 System.out.println("Only Integers are allowed as input");
                 main(args);
             }
-        }else{
+        } else {
             System.out.println("Only Integers are allowed as input");
             main(args);
         }
