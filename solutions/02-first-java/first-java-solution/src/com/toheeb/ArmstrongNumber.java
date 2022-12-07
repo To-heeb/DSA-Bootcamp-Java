@@ -11,27 +11,29 @@ public class ArmstrongNumber {
         System.out.print("Please enter upper bound number: ");
         int upperBound = input.nextInt();
 
-        for(int i = lowerBound; i < upperBound; i++){
+        for (int i = lowerBound; i < upperBound; i++) {
 
             int digit = 0;
             int result = 0;
             int originalNumber = i;
 
-            while(originalNumber != 0){
+            // count digit here
+            while (originalNumber != 0) {
                 originalNumber /= 10;
                 ++digit;
             }
 
             originalNumber = i;
 
-            while(originalNumber != 0){
+            // add by the power of numbers in the digit
+            while (originalNumber != 0) {
                 int remainder = originalNumber % 10;
                 result += Math.pow(remainder, digit);
                 originalNumber /= 10;
             }
 
-            if(result == i){
-                System.out.print(i +", ");
+            if (result == i) {
+                System.out.print(i + ", ");
             }
         }
     }

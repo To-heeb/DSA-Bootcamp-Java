@@ -2,7 +2,7 @@ package com.kunal;
 
 public class Reverse {
     public static void main(String[] args) {
-        int num = 123456;
+        int num = 4095;
 
         int ans = 0;
 

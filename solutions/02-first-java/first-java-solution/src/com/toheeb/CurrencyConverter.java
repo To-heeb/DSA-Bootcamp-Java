@@ -9,12 +9,12 @@ public class CurrencyConverter {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter amount in naira: ");
 
-        if(input.hasNext()){
+        if (input.hasNext()) {
             float naira = input.nextFloat();
 
-//            Convert to dollar
+            // Convert to dollar
             float dollar = naira / 775;
-            System.out.println("₦" + naira + " is equal to $"+dollar);
+            System.out.println("₦" + naira + " is equal to $" + dollar);
         }
     }
 }

@@ -17,8 +17,8 @@ public class Prime {
                 System.out.println("Not Prime");
                 return;
             }
-            c = c + 1;
-            // c++;
+            // c = c + 1;
+            c++;
         }
         if (c * c > n) {
             System.out.println("Prime");

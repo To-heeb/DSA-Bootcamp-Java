@@ -6,6 +6,90 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ArmstrongNumber",
+      "request": "launch",
+      "mainClass": "com.toheeb.ArmstrongNumber",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch CurrencyConverter",
+      "request": "launch",
+      "mainClass": "com.toheeb.CurrencyConverter",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Reverse",
+      "request": "launch",
+      "mainClass": "com.kunal.Reverse",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch CaseCheck",
+      "request": "launch",
+      "mainClass": "com.kunal.CaseCheck",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Sum",
+      "request": "launch",
+      "mainClass": "com.toheeb.Sum",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Largest",
+      "request": "launch",
+      "mainClass": "com.toheeb.Largest",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Calculator",
+      "request": "launch",
+      "mainClass": "com.kunal.Calculator",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch SumOfNumbers",
+      "request": "launch",
+      "mainClass": "com.toheeb.SumOfNumbers",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Factors",
+      "request": "launch",
+      "mainClass": "com.toheeb.Factors",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch subtractProductAndSum",
+      "request": "launch",
+      "mainClass": "com.toheeb.subtractProductAndSum",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Fibo",
+      "request": "launch",
+      "mainClass": "com.kunal.Fibo",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Fibonacci",
+      "request": "launch",
+      "mainClass": "com.toheeb.Fibonacci",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
       "name": "Launch TotalSurfaceAreaOfCube",
       "request": "launch",
       "mainClass": "com.toheeb.TotalSurfaceAreaOfCube",
