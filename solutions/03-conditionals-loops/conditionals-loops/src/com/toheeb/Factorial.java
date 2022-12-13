@@ -9,12 +9,12 @@ public class Factorial {
 
         int number = input.nextInt();
         int real_number = number;
-        int factor = 1;
-        while(number > 1){
-            factor *= number;
+        long factorial = 1;
+        while (number > 1) {
+            factorial *= number;
             number--;
         }
 
-        System.out.println("Factor of "+real_number+" is "+factor);
+        System.out.println("Factorial of " + real_number + " is " + factorial);
     }
 }

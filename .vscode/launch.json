@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Factorial",
+      "request": "launch",
+      "mainClass": "com.toheeb.Factorial",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
       "name": "Launch ArmstrongNumber",
       "request": "launch",
       "mainClass": "com.toheeb.ArmstrongNumber",
