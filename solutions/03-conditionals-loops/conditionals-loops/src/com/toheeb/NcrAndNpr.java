@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class NcrAndNpr {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter value of n: ");
+        System.out.print("Enter value of n: ");
         int n = input.nextInt();
-        System.out.println("Enter value of r: ");
+        System.out.print("Enter value of r: ");
         int r = input.nextInt();
 
         double permutation = factorial(n)/factorial(n-r);

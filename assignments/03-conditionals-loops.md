@@ -51,10 +51,10 @@
 14. Armstrong Number In Java
 15. Find Ncr & Npr (come back in a week time to solve again)
 16. Reverse A String In Java
-17. Find if a number is palindrome or not
+17. Find if a number is palindrome or not (come back in a week time to solve again solve with two pointers)
 18. Future Investment Value
-19. HCF Of Two Numbers Program
-20. LCM Of Two Numbers
+19. HCF Of Two Numbers Program (come back in a week time to solve again)
+20. LCM Of Two Numbers (come back in a week time to solve again)
 21. Java Program Vowel Or Consonant
 22. Perfect Number In Java
 23. Check Leap Year Or Not
