@@ -50,14 +50,14 @@
 13. Sum Of N Numbers
 14. Armstrong Number In Java
 15. Find Ncr & Npr (come back in a week time to solve again)
-16. Reverse A String In Java
+16. Reverse A String In Java (come back in a week time to solve again)
 17. Find if a number is palindrome or not (come back in a week time to solve again solve with two pointers)
 18. Future Investment Value
 19. HCF Of Two Numbers Program (come back in a week time to solve again)
 20. LCM Of Two Numbers (come back in a week time to solve again)
 21. Java Program Vowel Or Consonant
-22. Perfect Number In Java
-23. Check Leap Year Or Not
+22. Perfect Number In Java (come back in a week time to solve again)
+23. Check Leap Year Or Not (come back in a week time to solve again)
 24. Sum Of A Digits Of Number
 25. Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August.
 26. Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero.
