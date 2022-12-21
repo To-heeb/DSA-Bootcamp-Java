@@ -7,13 +7,13 @@
 - <a href="https://www.commclassroom.org/java" style="background-color:#FFFFFF;color:#000000;text-decoration:none">🧑‍💻 Syllabus and website </a>
 
 - <a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ" title="Click here to access full Playlist on YouTube" style="background-color:#FFFFFF;color:#000000;text-decoration:none">📂 Complete Playlist</a>
- 
+
 - <a href="https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/assignments" title="Click here to see Assignments related to this Course" style="background-color:#FFFFFF;color:#000000;text-decoration:none">✍️ Assignments (Solutions can be found on LeetCode itself)</a>
 
 - <a href="https://github.com/kunal-kushwaha/Competitive-Programming-Resources" title="CP Lover? Click here to get some awesome resources related to Competitive Programming" style="background-color:#FFFFFF;color:#000000;text-decoration:none">🏆 Competitive Programming Resources</a>
 
-
 ## Connect with me
+
   <a href="https://twitter.com/kunalstwt">
     <img width="30px" src="https://www.vectorlogo.zone/logos/twitter/twitter-official.svg" />
   </a>&ensp;
@@ -31,6 +31,7 @@
   </a>
 
 ## Join Community Classroom Groups
+
   <a href="https://discord.io/commclassroom">
     <img width="30px" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" />
   </a>&ensp;

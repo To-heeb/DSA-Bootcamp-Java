@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Questions {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-//        int n = in.nextInt();
-//        boolean ans = isPrime(n);
-//        System.out.println(ans);
+        // int n = in.nextInt();
+        // boolean ans = isPrime(n);
+        // System.out.println(ans);
 
         for (int i = 100; i < 1000; i++) {
             if (isArmstrong(i)) {
@@ -24,7 +24,7 @@ public class Questions {
         while (n > 0) {
             int rem = n % 10;
             n = n / 10;
-            sum = sum + rem*rem*rem;
+            sum = sum + rem * rem * rem;
         }
 
         return sum == original;

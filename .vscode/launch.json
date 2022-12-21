@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch VarArgs",
+      "request": "launch",
+      "mainClass": "com.kunal.VarArgs",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Shadowing",
+      "request": "launch",
+      "mainClass": "com.kunal.Shadowing",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Questions",
+      "request": "launch",
+      "mainClass": "com.kunal.Questions",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Greeting",
+      "request": "launch",
+      "mainClass": "com.kunal.Greeting",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringExample",
+      "request": "launch",
+      "mainClass": "com.kunal.StringExample",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
       "name": "Launch Factorial",
       "request": "launch",
       "mainClass": "com.toheeb.Factorial",

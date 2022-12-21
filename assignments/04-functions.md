@@ -14,7 +14,7 @@
 
 7. [Define a method to find out if a number is prime or not.](https://www.geeksforgeeks.org/java-program-to-check-if-a-number-is-prime-or-not/)
 
-8. [Write a program that will ask the user to enter his/her marks (out of 100). Define a method that will display grades according to the marks entered as below:](https://www.techcrashcourse.com/2017/02/java-program-to-calculate-grade-of-students.html) <br/>
+8. [Write a program that will ask the user to enter his/her marks (out of 100). Define a method that will display grades according to the marks entered as below:](https://www.techcrashcourse.com/2017/02/java-program-to-calculate-grade-of-students.html) <br/> (come back tomorrow)
 <pre> 
 Marks        Grade 
 91-100         AA 
@@ -37,12 +37,12 @@ Also,
 0! = 1
 </pre>
 
-10. [Write a function to find if a number is a palindrome or not. Take number as parameter.](https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/)
+10. [Write a function to find if a number is a palindrome or not. Take number as parameter.](https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/) (come back to this with conditionals-loop)
 
-11. Convert the programs in [flow of program](01-flow-of-program.md), [first java](02-first-java.md), [conditionals & loops](03-conditionals-loops.md) assignments into functions.
+11. Convert the programs in [flow of program](01-flow-of-program.md), [first java](02-first-java.md), [conditionals & loops](03-conditionals-loops.md) assignments into functions. (come back when coming back)
 
-12. [Write a function to check if a given triplet is a Pythagorean triplet or not.](https://www.geeksforgeeks.org/find-pythagorean-triplet-in-an-unsorted-array/) (A Pythagorean triplet is when the sum of the square of two numbers is equal to the square of the third number).
+12. [Write a function to check if a given triplet is a Pythagorean triplet or not.](https://www.geeksforgeeks.org/find-pythagorean-triplet-in-an-unsorted-array/) (A Pythagorean triplet is when the sum of the square of two numbers is equal to the square of the third number). (come back to this with conditionals-loop{check explanantion on geeksforgeeks})
 
-13. [Write a function that returns all prime numbers between two given numbers.](https://www.geeksforgeeks.org/program-to-find-prime-numbers-between-given-interval/)
+13. [Write a function that returns all prime numbers between two given numbers.](https://www.geeksforgeeks.org/program-to-find-prime-numbers-between-given-interval/) (come back to this with conditionals-loop)
 
 14. [Write a function that returns the sum of first n natural numbers.](https://www.geeksforgeeks.org/program-find-sum-first-n-natural-numbers/)

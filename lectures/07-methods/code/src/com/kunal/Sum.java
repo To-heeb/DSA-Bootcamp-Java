@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Sum {
     public static void main(String[] args) {
-//        int ans = sum2();
-//        System.out.println(ans);
+        // int ans = sum2();
+        // System.out.println(ans);
 
         int ans = sum3(20, 30);
         System.out.println(ans);
@@ -26,7 +26,7 @@ public class Sum {
         int num2 = in.nextInt();
         int sum = num1 + num2;
         return sum;
-//        System.out.println("This will never execute");
+        // System.out.println("This will never execute");
     }
 
     static void sum() {
@@ -40,10 +40,10 @@ public class Sum {
     }
 
     /*
-        return_type name (arguments) {
-            // body
-            return statement;
-        }
-
+     * return_type name (arguments) {
+     * // body
+     * return statement;
+     * }
+     * 
      */
 }
