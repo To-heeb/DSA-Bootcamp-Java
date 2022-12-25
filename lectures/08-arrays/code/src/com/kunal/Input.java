@@ -21,18 +21,18 @@ public class Input {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = in.nextInt();
         }
-//
-//        System.out.println(Arrays.toString(arr));
 
-//        for (int i = 0; i < arr.length; i++) {
-//            System.out.print(arr[i] + " ");
-//        }
+        // System.out.println(Arrays.toString(arr));
 
-//        for(int num : arr) { // for every element in array, print the element
-//            System.out.print(num + " "); //  here num represents element of the array
-//        }
+        // for (int i = 0; i < arr.length; i++) {
+        // System.out.print(arr[i] + " ");
+        // }
 
-//        System.out.println(arr[5]); // index out of bound error
+        // for(int num : arr) { // for every element in array, print the element
+        // System.out.print(num + " "); // here num represents element of the array
+        // }
+
+        // System.out.println(arr[5]); // index out of bound error
 
         // array of objects
         String[] str = new String[4];

@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ShuffleTheArray",
+      "request": "launch",
+      "mainClass": "com.toheeb.ShuffleTheArray",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch MultiAL",
+      "request": "launch",
+      "mainClass": "com.kunal.MultiAL",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch ColNoFixed",
+      "request": "launch",
+      "mainClass": "com.kunal.ColNoFixed",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayListExample",
+      "request": "launch",
+      "mainClass": "com.kunal.ArrayListExample",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch MultiDimension",
+      "request": "launch",
+      "mainClass": "com.kunal.MultiDimension",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Max",
+      "request": "launch",
+      "mainClass": "com.kunal.Max",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch PassinginFunctions",
+      "request": "launch",
+      "mainClass": "com.kunal.PassinginFunctions",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch ChangeValue",
+      "request": "launch",
+      "mainClass": "com.kunal.ChangeValue",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
       "name": "Launch VarArgs",
       "request": "launch",
       "mainClass": "com.kunal.VarArgs",
