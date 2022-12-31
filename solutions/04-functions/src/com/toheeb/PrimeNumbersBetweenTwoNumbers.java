@@ -12,19 +12,19 @@ public class PrimeNumbersBetweenTwoNumbers {
         primeNumbers2(num1, num2);
     }
 
-    static void primeNumbers(int a, int b){
+    static void primeNumbers(int a, int b) {
         String primeNumber = "";
-        for(int i = a; i < b; i++){
+        for (int i = a; i < b; i++) {
 
             int count = 2;
-            while(count * count <= i){
-                if(i % count == 0){
+            while (count * count <= i) {
+                if (i % count == 0) {
                     break;
                 }
                 count++;
             }
 
-            if(count * count > i){
+            if (count * count > i) {
                 primeNumber += i;
                 primeNumber += ", ";
                 continue;
@@ -32,32 +32,38 @@ public class PrimeNumbersBetweenTwoNumbers {
 
         }
 
-        System.out.println("Prime numbers between "+a+" and "+b+" is "+primeNumber);
+        System.out.println("Prime numbers between " + a + " and " + b + " is " + primeNumber);
     }
 
-    static void primeNumbers2(int a, int b){
+    static void primeNumbers2(int a, int b) {
         String primeNumber = "";
-        for(int i = a; i < b; i++){
-            if(isPrime(i)){
+        for (int i = a; i < b; i++) {
+            if (isPrime(i)) {
                 primeNumber += i;
                 primeNumber += ", ";
             }
         }
-        System.out.println("Prime numbers between "+a+" and "+b+" is "+primeNumber);
+        System.out.println("Prime numbers between " + a + " and " + b + " is " + primeNumber);
     }
 
-    static boolean isPrime(int number){
+    static boolean isPrime(int number) {
         if (number <= 1) {
             return false;
         }
         int c = 2;
-        while(c * c <= number){
-            if(number % c == 0){
+        while (c * c <= number) {
+            if (number % c == 0) {
                 return false;
             }
             c++;
         }
         return true;
     }
+
+    // Visualization link :
+    // This link directs you to a page where you can visualize how this code runs
+    // Link: https://urlzs.com/33kGK
+    // click on "Visualize Execution" when you get to the page to run the code and
+    // visualize;
 
 }
