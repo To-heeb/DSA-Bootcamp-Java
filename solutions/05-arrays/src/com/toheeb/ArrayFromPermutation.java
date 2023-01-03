@@ -26,7 +26,8 @@ public class ArrayFromPermutation {
     // Visualization link :
     // This link directs you to a page where you can visualize how
     // this code runs
-    // https://cutt.ly/I0MsyYJ
-    // click on "Visualize Execution" when you get to the page to run the code and visualize;
+    // Link: https://cutt.ly/I0MsyYJ
+    // click on "Visualize Execution" when you get to the page to run the code and
+    // visualize;
 
 }
