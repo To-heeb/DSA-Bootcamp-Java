@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch oddCells",
+      "request": "launch",
+      "mainClass": "com.toheeb.oddCells",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
       "name": "Launch ShuffleTheArray",
       "request": "launch",
       "mainClass": "com.toheeb.ShuffleTheArray",
