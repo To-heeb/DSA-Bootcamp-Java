@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch AddToArrayForm",
+      "request": "launch",
+      "mainClass": "com.toheeb.AddToArrayForm",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch FindNumbers",
+      "request": "launch",
+      "mainClass": "com.toheeb.FindNumbers",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
       "name": "Launch oddCells",
       "request": "launch",
       "mainClass": "com.toheeb.oddCells",
