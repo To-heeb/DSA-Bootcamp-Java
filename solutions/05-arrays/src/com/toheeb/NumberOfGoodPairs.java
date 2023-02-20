@@ -25,6 +25,24 @@ public class NumberOfGoodPairs {
 
         return good_pairs;
         // System.out.print(Arrays.toString(ans));
+
+        // optimized solution
+        // Space complexity; O(n)
+        // Time complexity: O(n)
+
+        // int[] frequency = new int[nums.length];
+        // int opt_good_pairs = 0;
+        // for(int i = 0; i < nums.length; i++) {
+        // opt_good_pairs += frequency[nums[i]]++;
+        // }
+        // return opt_good_pairs;
+
+        // int[] frequency = new int[nums.length];
+        // int opt_good_pairs = 0;
+        // for(int i = 0; i < nums.length; i++) {
+        // opt_good_pairs += (nums[i] * (nums[i] - 1)) / 2;
+        // }
+        // return opt_good_pairs;
     }
 
     public static void main(String[] args) {

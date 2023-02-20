@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch NumberOfGoodPairs",
+      "request": "launch",
+      "mainClass": "com.toheeb.NumberOfGoodPairs",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch SumZero",
+      "request": "launch",
+      "mainClass": "com.toheeb.SumZero",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoSum",
+      "request": "launch",
+      "mainClass": "com.toheeb.TwoSum",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch PrimeNumbersBetweenTwoNumbers",
+      "request": "launch",
+      "mainClass": "com.toheeb.PrimeNumbersBetweenTwoNumbers",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "Launch Transpose",
+      "request": "launch",
+      "mainClass": "com.toheeb.Transpose",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
       "name": "Launch AddToArrayForm",
       "request": "launch",
       "mainClass": "com.toheeb.AddToArrayForm",

@@ -11,14 +11,14 @@ public class Palindrome {
         char stringChar[] = originalString.toCharArray();
         String reversedString = "";
 
-        for (int i = (stringChar.length - 1); i >= 0; i--){
+        for (int i = (stringChar.length - 1); i >= 0; i--) {
             reversedString += stringChar[i];
         }
 
-        if(originalString.equalsIgnoreCase(reversedString)){
-            System.out.println(originalString+" is a palindrome");
-        }else{
-            System.out.println(originalString+" is not a palindrome");
+        if (originalString.equalsIgnoreCase(reversedString)) {
+            System.out.println(originalString + " is a palindrome");
+        } else {
+            System.out.println(originalString + " is not a palindrome");
         }
 
     }

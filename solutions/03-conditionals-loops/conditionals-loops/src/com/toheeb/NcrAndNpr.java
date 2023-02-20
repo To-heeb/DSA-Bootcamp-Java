@@ -10,20 +10,23 @@ public class NcrAndNpr {
         System.out.print("Enter value of r: ");
         int r = input.nextInt();
 
-        double permutation = factorial(n)/factorial(n-r);
-        double combination = factorial(n)/ (factorial(n-r) * factorial(r));
+        double permutation = factorial(n) / factorial(n - r);
+        double combination = factorial(n) / (factorial(n - r) * factorial(r));
 
-        if(n >= r){
-            System.out.println("The value of "+n+"P"+r+" is : "+permutation);
-            System.out.println("The value of "+n+"C"+r+" is : "+combination);
-        }else{
+        if (n >= r) {
+            System.out.println("The value of " + n + "P" + r + " is : " + permutation);
+            System.out.println("The value of " + n + "C" + r + " is : " + combination);
+        } else {
             System.out.println("n value should be greater than or equals to r value");
-         }
+        }
     }
 
-    static long factorial(float n){
+    static long factorial(float n) {
+        if (n == 0)
+            return 1;
+
         long number = 1;
-        while(n > 1){
+        while (n > 1) {
             number *= n;
             n--;
         }

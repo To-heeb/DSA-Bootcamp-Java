@@ -8,30 +8,30 @@ public class CreateTargetArray {
         int[] target = new int[nums.length];
         // all arrays are equal length
 
-        for(int i = 0; i < nums.length; i++){
+        for (int i = 0; i < nums.length; i++) {
 
-            if(index[i] < i){
+            if (index[i] < i) {
                 // shift the values in array to the right
                 int j = target.length - 1;
-                while(j > index[i]){
-                    target[j] =  target[j - 1];
+                while (j > index[i]) {
+                    target[j] = target[j - 1];
                     j--;
                 }
                 target[index[i]] = nums[i];
-            }else{
+            } else {
                 target[index[i]] = nums[i];
             }
 
         }
 
         return target;
-        //System.out.print(Arrays.toString(ans));
+        // System.out.print(Arrays.toString(ans));
     }
 
-    public static void main(String[] args){
-        int[] nums = {0,1,2,3,4};
-        int[] index = {0,1,2,2,1};
-        //int n = input.length / 2;
+    public static void main(String[] args) {
+        int[] nums = { 0, 1, 2, 3, 4 };
+        int[] index = { 0, 1, 2, 2, 1 };
+        // int n = input.length / 2;
         int result[] = createTargetArray(nums, index);
         System.out.print(Arrays.toString(result));
     }

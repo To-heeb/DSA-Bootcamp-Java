@@ -6,10 +6,12 @@ public class Transpose {
 
     public static int[][] transpose(int[][] A) {
 
+        // transpose the matrix,
+        // transpose means first row becomes first column in matrix
         int R = A.length, C = A[0].length;
         int[][] ans = new int[C][R];
-        for (int r = 0; r < R; ++r)
-            for (int c = 0; c < C; ++c) {
+        for (int r = 0; r < R; r++)
+            for (int c = 0; c < C; c++) {
                 ans[c][r] = A[r][c];
             }
         return ans;
@@ -29,5 +31,8 @@ public class Transpose {
     // Link: https://cutt.ly/92bY6Mg
     // click on "Visualize Execution" when you get to the page to run the code and
     // visualize;
+
+    // The transpose of a matrix is found by interchanging its rows into columns or
+    // columns into rows.
 
 }

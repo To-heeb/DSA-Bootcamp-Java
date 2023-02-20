@@ -8,17 +8,17 @@ public class LeapYear {
         System.out.print("Enter a calender year: ");
         int year = input.nextInt();
         boolean leapYearStatus = false;
-        if(year % 400 == 0){
+        if (year % 400 == 0) {
             leapYearStatus = true;
         }
 
-        if(year % 4 == 0 && year % 100 != 0){
+        if (year % 4 == 0 && year % 100 != 0) {
             leapYearStatus = true;
         }
 
-        if(leapYearStatus){
+        if (leapYearStatus) {
             System.out.println(year + " is a leap year");
-        }else{
+        } else {
             System.out.println(year + " is not a leap year");
         }
     }

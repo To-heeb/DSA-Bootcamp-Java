@@ -12,46 +12,52 @@ public class HCF {
         int max = 0;
         int min = 0;
 
-        if(numberOne == 0 && numberTwo == 0){
+        if (numberOne == 0 && numberTwo == 0) {
             System.out.println("The HCF is 0");
             System.exit(1);
         }
 
-        if(numberOne == 0 ){
-            System.out.println("The HCF is "+numberTwo);
+        if (numberOne == 0) {
+            System.out.println("The HCF is " + numberTwo);
             System.exit(1);
         }
 
-        if(numberTwo == 0){
-            System.out.println("The HCF is "+ numberOne);
+        if (numberTwo == 0) {
+            System.out.println("The HCF is " + numberOne);
             System.exit(1);
         }
 
-        if(numberOne == 1 || numberTwo == 1){
+        if (numberOne == 1 || numberTwo == 1) {
             System.out.println("The HCF is 1");
             System.exit(1);
         }
 
-        if(numberOne > numberTwo){
+        if (numberOne > numberTwo) {
             max = numberOne;
             min = numberTwo;
-        }else{
+        } else {
             max = numberTwo;
             min = numberOne;
         }
 
-        while(min != 0){
-            if(numberOne > numberTwo){
+        // while (min != 0) {
+        // int temp = min;
+        // min = max % min;
+        // max = temp;
+        // }
+
+        while (min != 0) {
+            if (numberOne > numberTwo) {
                 numberOne %= numberTwo;
                 max = numberTwo;
                 min = numberOne;
-            }else{
+            } else {
                 numberTwo %= numberOne;
                 max = numberOne;
                 min = numberTwo;
             }
         }
 
-        System.out.println("The HCF is "+ max);
+        System.out.println("The HCF is " + max);
     }
 }

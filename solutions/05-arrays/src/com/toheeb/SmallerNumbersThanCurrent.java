@@ -24,6 +24,26 @@ public class SmallerNumbersThanCurrent {
 
         return count_array;
         // System.out.print(Arrays.toString(ans));
+
+        // optimized solution
+        // Space complexity; O(n)
+        // Time complexity: O(n)
+        // int[] count_array = new int[nums.length];
+        // int[] frequency = new int[101];
+        // for(int i = 0; i < nums.length; i++){
+        // frequency[nums[i]]++;
+        // }
+        // for(int i = 1; i < frequency.length; i++){
+        // frequency[i] += frequency[i - 1];
+        // }
+        // for (int i = 0; i < count_array.length; i++) {
+        // if (nums[i] == 0)
+        // count_array[i] = 0;
+        // else
+        // count_array[i] = frequency[nums[i] - 1];
+        // }
+
+        // return count_array;
     }
 
     public static void main(String[] args) {
