@@ -93,9 +93,10 @@ public class MaximumPopulation {
     }
 
     // Visualization link :
-    // This link directs you to a page where you can visualize how
+    // These links directs you to a page where you can visualize how
     // this code runs
     // Link: https://cutt.ly/Z2ECwV1
+    // Link: https://urlzs.com/5Zdyo
     // click on "Visualize Execution" when you get to the page to run the code and
     // visualize;
 
