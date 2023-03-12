@@ -7,7 +7,10 @@ public class Transpose {
     public static int[][] transpose(int[][] A) {
 
         // transpose the matrix,
-        // transpose means first row becomes first column in matrix
+        // transpose means first column becomes first row in matrix and the first row
+        // will become the last column in the matrix
+        // transpose means interchange rows for column in matrix and colums for rows
+
         int R = A.length, C = A[0].length;
         int[][] ans = new int[C][R];
         for (int r = 0; r < R; r++)

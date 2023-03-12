@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RemoveDuplicates",
+      "request": "launch",
+      "mainClass": "com.toheeb.RemoveDuplicates",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "PlusOne",
+      "request": "launch",
+      "mainClass": "com.toheeb.PlusOne",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "MatrixReshape",
+      "request": "launch",
+      "mainClass": "com.toheeb.MatrixReshape",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "LuckyNumbers",
+      "request": "launch",
+      "mainClass": "com.toheeb.LuckyNumbers",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "FindRotation",
+      "request": "launch",
+      "mainClass": "com.toheeb.FindRotation",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
       "name": "Launch NumberOfGoodPairs",
       "request": "launch",
       "mainClass": "com.toheeb.NumberOfGoodPairs",

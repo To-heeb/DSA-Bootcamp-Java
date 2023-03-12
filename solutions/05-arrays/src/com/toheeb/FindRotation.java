@@ -60,7 +60,6 @@ public class FindRotation {
 
     public static void main(String[] args) {
         int[][] nums = { { 0, 0, 0 }, { 0, 1, 0 }, { 1, 1, 1 } };
-
         int[][] target = { { 1, 1, 1 }, { 0, 1, 0 }, { 0, 0, 0 } };
         boolean result = findRotation(nums, target);
         System.out.print(result);
