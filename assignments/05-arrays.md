@@ -30,12 +30,12 @@
 24. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (come back to it)
 25. [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) (come back to it)
 26. [Plus One](https://leetcode.com/problems/plus-one/) (come back to it)
-27. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (come back tomorrow)
-28. [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) (come back in two weeks time##)
+27. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (come back to it)
+28. [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) (come back to this)
 
 ### Medium
 
-1. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+1. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) (continue from here)
 2. [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
 3. [Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)
 4. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
