@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SearchRange",
+      "request": "launch",
+      "mainClass": "com.toheeb.SearchRange",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
       "name": "RemoveDuplicates",
       "request": "launch",
       "mainClass": "com.toheeb.RemoveDuplicates",
