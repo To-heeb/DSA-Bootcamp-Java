@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SortColors",
+      "request": "launch",
+      "mainClass": "com.toheeb.SortColors",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "RotateArray",
+      "request": "launch",
+      "mainClass": "com.toheeb.RotateArray",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "RotateArray",
+      "request": "launch",
+      "mainClass": "com.toheeb.RotateArray",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
+      "name": "CanJump",
+      "request": "launch",
+      "mainClass": "com.toheeb.CanJump",
+      "projectName": "DSA-Bootcamp-Java_86667309"
+    },
+    {
+      "type": "java",
       "name": "SearchRange",
       "request": "launch",
       "mainClass": "com.toheeb.SearchRange",

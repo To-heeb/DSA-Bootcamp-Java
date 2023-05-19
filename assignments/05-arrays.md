@@ -41,10 +41,10 @@
 4. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) (come back to it)
 5. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (come back to it)
 6. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (come back to it)
-7. [Jump Game](https://leetcode.com/problems/jump-game/) (continue)
-8. [Rotate Array](https://leetcode.com/problems/rotate-array/)
-9. [Sort Colors](https://leetcode.com/problems/sort-colors/)
-10. [House Robber](https://leetcode.com/problems/house-robber/)
+7. [Jump Game](https://leetcode.com/problems/jump-game/) (come back to it)
+8. [Rotate Array](https://leetcode.com/problems/rotate-array/) (come back to it)
+9. [Sort Colors](https://leetcode.com/problems/sort-colors/)  (come back to it)
+10. [House Robber](https://leetcode.com/problems/house-robber/) (start tomorrow)
 
 ### Hard
 
