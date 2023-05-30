@@ -44,7 +44,7 @@
 7. [Jump Game](https://leetcode.com/problems/jump-game/) (come back to it)
 8. [Rotate Array](https://leetcode.com/problems/rotate-array/) (come back to it)
 9. [Sort Colors](https://leetcode.com/problems/sort-colors/)  (come back to it)
-10. [House Robber](https://leetcode.com/problems/house-robber/) (start tomorrow)
+10. [House Robber](https://leetcode.com/problems/house-robber/) (continue tomorrow)
 
 ### Hard
 
