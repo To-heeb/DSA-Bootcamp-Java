@@ -10,18 +10,18 @@ public class PerfectNumber {
         int count = 2;
         int perfectNumber = 1;
 
-        while(count*count < number){
+        while (count * count < number) {
             int remainder = number % count;
-            if(remainder == 0){
-               int secondFactor = number / count;
+            if (remainder == 0) {
+                int secondFactor = number / count;
                 perfectNumber += (count + secondFactor);
             }
             count++;
         }
 
-        if(number == perfectNumber){
+        if (number == perfectNumber) {
             System.out.println(number + " is a perfect number.");
-        }else{
+        } else {
             System.out.println(number + " is not a perfect number.");
         }
     }

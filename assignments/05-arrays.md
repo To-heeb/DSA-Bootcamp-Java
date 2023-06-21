@@ -10,7 +10,7 @@
 4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)
 6. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
-7. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) (come back, use formulae instead)
+7. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) (come back)
 8. [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) (come back, use the two methods)
 9. [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) (come back using ll)
 10. [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) (come back, use the two methods)

@@ -60,4 +60,12 @@ public class HCF {
 
         System.out.println("The HCF is " + max);
     }
+
+    public static int gcd(int numberOne, int numberTwo) {
+
+        if (numberOne == 0 || numberTwo == 0)
+            return Math.max(numberTwo, numberOne);
+
+        return gcd(numberTwo, numberOne % numberTwo);
+    }
 }

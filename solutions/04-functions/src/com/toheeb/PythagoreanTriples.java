@@ -15,11 +15,12 @@ public class PythagoreanTriples {
         System.out.println(isPythagoreanTriples(num1, num2, num3));
     }
 
-    static boolean isPythagoreanTriples(int a, int b, int c){
+    static boolean isPythagoreanTriples(int a, int b, int c) {
         a = a * a;
         b = b * b;
         c = c * c;
-        if (a == b + c || b == c + a || c == b + a) return true;
+        if (a == b + c || b == c + a || c == b + a)
+            return true;
         return false;
     }
 }

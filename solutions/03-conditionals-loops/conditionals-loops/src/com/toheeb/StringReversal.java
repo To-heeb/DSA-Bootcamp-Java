@@ -8,10 +8,10 @@ public class StringReversal {
         System.out.print("Please Enter a string: ");
         String originalString = input.next();
         String reversedString = "";
-        for (int i =0; i < originalString.length(); i++){
+        for (int i = 0; i < originalString.length(); i++) {
             reversedString = originalString.charAt(i) + reversedString;
         }
 
-        System.out.println("The reversed string is: "+reversedString);
+        System.out.println("The reversed string is: " + reversedString);
     }
 }

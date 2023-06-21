@@ -6,21 +6,29 @@ public class NumberOfGoodPairs {
 
         // This is not optimized will come back to optimize it.
         int good_pairs = 0;
+        // for (int i = 0; i < nums.length; i++) {
+        // for (int j = 0; j < nums.length; j++) {
+        // if (i == j) {
+        // continue;
+        // }
+        // if (nums[i] == nums[j]) {
+        // if (i <= j) {
+        // good_pairs++;
+        // }
+        // }
+        // }
+        // }
+
+        int[] count = new int[101];
+
         for (int i = 0; i < nums.length; i++) {
+            count[nums[i]]++;
+        }
 
-            for (int j = 0; j < nums.length; j++) {
-                if (i == j) {
-                    continue;
-                }
-
-                if (nums[i] == nums[j]) {
-                    if (i <= j) {
-                        good_pairs++;
-                    }
-                }
-
-            }
-
+        for (int i = 0; i < count.length; i++) {
+            int num = count[i];
+            int combination = (int) num * (num - 1) / 2;
+            good_pairs += combination;
         }
 
         return good_pairs;

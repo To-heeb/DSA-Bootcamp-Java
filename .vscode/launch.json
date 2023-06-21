@@ -6,6 +6,111 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SmallerNumbersThanCurrent",
+      "request": "launch",
+      "mainClass": "com.toheeb.SmallerNumbersThanCurrent",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "NumberOfGoodPairs",
+      "request": "launch",
+      "mainClass": "com.toheeb.NumberOfGoodPairs",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "NcrAndNpr",
+      "request": "launch",
+      "mainClass": "com.toheeb.NcrAndNpr",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "LeapYear",
+      "request": "launch",
+      "mainClass": "com.toheeb.LeapYear",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "StringReversal",
+      "request": "launch",
+      "mainClass": "com.toheeb.StringReversal",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "PerfectNumber",
+      "request": "launch",
+      "mainClass": "com.toheeb.PerfectNumber",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "com.toheeb.Factorial",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "Factors",
+      "request": "launch",
+      "mainClass": "com.toheeb.Factors",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "Fibo",
+      "request": "launch",
+      "mainClass": "com.kunal.Fibo",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "Prime",
+      "request": "launch",
+      "mainClass": "com.kunal.Prime",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "ArmstrongNumber",
+      "request": "launch",
+      "mainClass": "com.toheeb.ArmstrongNumber",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "Palindrome",
+      "request": "launch",
+      "mainClass": "com.toheeb.Palindrome",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "com.toheeb.Fibonacci",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "SimpleInterest",
+      "request": "launch",
+      "mainClass": "com.toheeb.SimpleInterest",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
+      "name": "EvenOdd",
+      "request": "launch",
+      "mainClass": "com.toheeb.EvenOdd",
+      "projectName": "DSA-Bootcamp-Java_820e3474"
+    },
+    {
+      "type": "java",
       "name": "SortColors",
       "request": "launch",
       "mainClass": "com.toheeb.SortColors",
