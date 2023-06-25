@@ -10,16 +10,20 @@ public class CreateTargetArray {
 
         for (int i = 0; i < nums.length; i++) {
 
-            if (index[i] < i) {
-                // shift the values in array to the right
-                int j = target.length - 1;
-                while (j > index[i]) {
-                    target[j] = target[j - 1];
-                    j--;
-                }
-                target[index[i]] = nums[i];
+            if (index[i] >= i) {
+                target[i] = nums[index[i]];
             } else {
-                target[index[i]] = nums[i];
+
+                int min = index[i];
+                int max = target.length - 1;
+
+                // shift here
+                while (max > min) {
+                    target[max] = target[max - 1];
+                    max--;
+                }
+
+                target[min] = nums[i];
             }
 
         }

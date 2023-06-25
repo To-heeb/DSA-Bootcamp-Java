@@ -66,3 +66,11 @@ public class SmallerNumbersThanCurrent {
     // Algorithm
     // This is solved using the counting sort algorithm
 }
+
+// from collections import Counter
+
+// class Solution:
+// def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+// counter = Counter(nums)
+// frequencies = [sum(counter[i] for i in range(num)) for num in nums]
+// return frequencies
